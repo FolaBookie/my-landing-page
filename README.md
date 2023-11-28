@@ -44,4 +44,4 @@ To view the portfolio locally:
 
 This project is licensed under the [MIT License](LICENSE).
 
-![Portfolio Screenshot](images/olubukola-portfolio.png)
+![Portfolio Screenshot](images/olubukola_portfolio.png)
