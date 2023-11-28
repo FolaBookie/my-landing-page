@@ -38,10 +38,17 @@ p {
 
 #name {
   background-color: #fff;
-  padding: 0 5px 0 40px ;
+  padding: 0 5px;
   color: var(--primary-color);
+  display: flex;
+  align-items: center;
 }
 
+#name img { 
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+}
 .menu {
  display: flex; 
  margin-right: 100px;
@@ -110,7 +117,7 @@ p {
   position: relative;
 }
 
-.portfolio-grid li div { 
+.portfolio-grid li a { 
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
@@ -120,6 +127,8 @@ p {
   z-index: 30;
   background-color: white;
   top: 60%;
+  text-decoration: none;
+  color: #000;
 }
 
 .portfolio-image {
@@ -128,23 +137,19 @@ p {
   object-fit: cover;
 }
 
-.portfolio-grid .first div {
+.portfolio-grid .first a {
   top: 80%;
-}
-
-.second div {
-  top: 60%;
 }
 
 .first {
   grid-row: 1/3;
-  grid-column: 1/-1;
-    
+  grid-column: 1/-1;  
 }
+
 .second {
   grid-row: 3/4 ; 
   grid-column: 1/5;
-  }
+}
 
 .third {
   grid-row: 3/4;

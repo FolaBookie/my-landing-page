@@ -23,14 +23,14 @@ my-landing-page/
 │
 ├── index.html
 ├── css/
-  └── styles.css
+└── styles.css
 └── images/
-  ├── 02-notepad.jpg
-  ├── 02-portfolio-1.jpg
-  ├── 03-sounds right.jpg
-  ├── 04-backpain.jpg
-  ├── 05-facial-assessment.jpg
-  └── diary-3.jpg
+├── 02-notepad.jpg
+├── 02-portfolio-1.jpg
+├── 03-sounds right.jpg
+├── 04-backpain.jpg
+├── 05-facial-assessment.jpg
+└── diary-3.jpg
 
 
 ## Getting Started
@@ -43,3 +43,5 @@ To view the portfolio locally:
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+![Portfolio Screenshot](images/olubukola-portfolio.png)
